@@ -1,4 +1,4 @@
-name: Build & Deploy CiCdPipelineApplication
+name: Build & Deploy CiCdPipeline App
 
 on:
   push:
@@ -7,7 +7,7 @@ on:
 
 jobs:
   build-deploy:
-    name: Build and Deploy CiCd
+    name: Build and Deploy Airways
     runs-on: macos-12
     steps:
       - name: Checkout code
